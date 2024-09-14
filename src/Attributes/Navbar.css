@@ -3,7 +3,7 @@ nav{
     align-items: center;
     justify-content: flex-start;
     padding: 30px 40px;
-    background-color:rgb(22, 50, 91);
+    background-color: rgb(255, 136, 91);
     margin-left: 0px;
   }
   
@@ -22,13 +22,13 @@ nav{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    color: rgb(167, 230, 255);
+    color: rgb(51, 55, 44);
     transition: 0.3s ease-in-out;
   }
   
   .navbar li a:hover,
   .navbar li a.active{
-    color:  rgb(255, 220, 127);
+    color:  rgb(85, 124, 86);
   }
   
   .navbar li a:hover::after,
@@ -36,27 +36,25 @@ nav{
     content: "";
     width: 30%;
     height:2px;
-    background: rgb(58, 190, 249);
+    background: rgb(255, 229, 207);
     position: absolute;
     bottom:-2px;
     left:20px;
   }
   
   .logoImg{
-  
-    padding: 10px;
-  
+    height: 50px;
   }
-  .logo{
+  /* .logo{
     font-size: xx-large;
     font-style: bold;
     text-decoration: none;
-    color: rgb(167, 230, 255) ;
+    
   }
-  
+   */
   /*footer*/
    .footer {
-    background-color:rgb(22, 50, 91);
+    background-color:rgb(255, 136, 91);
     
   }
   .footer h1{
@@ -64,7 +62,7 @@ nav{
     margin-top: 3%;
     font-weight: 800;
     font-size: 1.7rem;
-    color: rgb(167, 230, 255);
+    color: rgb(51, 55, 44);
   }
   
   .footer h2 {
@@ -72,7 +70,7 @@ nav{
     margin-top: 3%;
     font-weight: 800;
     font-size: 1.7rem;
-    color: rgb(167, 230, 255);
+    color: rgb(51, 55, 44);
   
   }
   
@@ -84,7 +82,7 @@ nav{
   
   .footer-section {
         width: 40%;
-        color: rgb(167, 230, 255);
+        color: rgb(51, 55, 44);
         margin:2%;
         margin-left: auto;
    
@@ -117,20 +115,20 @@ nav{
   }
   
   .socialMediaIcons a {
-    color: rgb(167, 230, 255);
+    color: rgb(51, 55, 44);
     font-size: 75px; 
     margin: 1%;
    
   }
   
   .socialMediaIcons a:hover {
-    color: rgb(255, 220, 127);
+    color: rgb(85, 124, 86);
   }
   
   
   .notfound{
     border: 2px solid silver;
-    box-shadow: 5 5px 16px 0 rgb(217, 230, 230);
+    box-shadow: 5 5px 16px 0 rgb(51, 55, 44);
     text-align: center;
     padding: 10px;
     height: 480px;

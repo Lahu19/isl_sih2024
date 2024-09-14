@@ -1,11 +1,10 @@
 import "./Navbar.css";
+import isl_Logo from '/images/isl logo 1.png'
 function Navbar() {
   return (
     <>
       <nav>
-        <a  href="/" className="logo">
-          ISL
-        </a>
+          <img src={isl_Logo} className="logoImg"></img>
         <div>
           <ul className="navbar">
           <li>
@@ -17,7 +16,7 @@ function Navbar() {
             <li>
               <a href="/learnmodule">Learn Gestures</a>
             </li>
-            <li>
+            <li style={{marginLeft: 700}}>
               <a href="/auth/account">Account</a>
             </li>
           </ul>
