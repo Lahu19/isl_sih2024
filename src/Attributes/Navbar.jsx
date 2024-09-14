@@ -16,7 +16,13 @@ function Navbar() {
             <li>
               <a href="/learnmodule">Learn Gestures</a>
             </li>
-            <li style={{marginLeft: 700}}>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+            <li>
+              <a href="#">Languages </a>
+            </li>
+            <li style={{marginLeft: 500}}>
               <a href="/auth/account">Account</a>
             </li>
           </ul>
